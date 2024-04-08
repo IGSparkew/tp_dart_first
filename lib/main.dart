@@ -94,12 +94,14 @@ class BodyTabApp extends StatelessWidget {
             Image.asset('assets/campagne_pics.jpg'),
             Column(
                 children: <Widget>[
-              Row(
-                children: [
-                  Text('campagne'),
-                ],
-              )
-            ]),
+                  Row(
+                    children: [
+                      Text("Paris, France"),
+                    ],
+                  ),
+                  Text("3-8 septembre"),
+                  Text("140€ le nuit"),
+                ]),
           ],
         ),
         Container(child: Text("sur l'eau")),
